@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+body{
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-position: 40%, -140%;
+    background-repeat: no-repeat;
+    background-color: #e0e8ff;
+}
+
+.container{
+    height: 600px;
+    width: 380px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px 1px #989ba534;
+}
+
+.banner{
+    background-image: url(./images/illustration-hero.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 30%;
+    border-radius: 15px 15px 0 0;
+}
+
+.content{
+    align-content: center;
+    text-align: center;
+    padding: 40px;
+}
+
+.content p{
+    font-weight: 900;
+    font-size: 27.2px;
+    color: #172444;
+}
+
+.text{
+    color: #7c889d;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.plans{
+    height: 80px;
+    width: 100%;
+    background-color: #eceff8;
+    margin-top: 30px;
+    border-radius: 10px;
+    position: relative;
+    padding: 20px;
+}
+
+.icon{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 15px;
+}
+
+.anualplan{
+    font-weight: 900;
+    color: #162547;
+    position: absolute;
+    left: 85px;
+}
+
+.price{
+    color: #73788E;
+    position: absolute;
+    left: 85px;
+    top: 45px;
+}
+
+.alteration a{
+    position: absolute;
+    right: 17px;
+    top: 30px;
+    font-weight: 700;
+}
+
+.alteration a:hover{
+    text-decoration: none;
+}
+
+.payment{
+    text-decoration: none;
+    width: 300px;
+    height: 50px;
+    border: none;
+    color: white;
+    background-color: #392ae1f6;
+    font-weight: 700;
+    font-size: 14.4px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 6px 0px rgba(0,0,0,0.3);
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.payment:hover{
+    background-color: #392ae1a2;
+}
+
+.cancel{
+    text-decoration: none;
+    width: 300px;
+    height: 50px;
+    border: none;
+    background-color: white;
+    color: #73788E;
+    font-weight: 700;
+    font-size: 14.4px;
+    margin-top: 8px; 
+    cursor: pointer;   
+}
+
+footer{
+    position: absolute;
+    bottom: 4px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 14px;
+    color: #4e566e;;
+}
+
+footer a{
+    text-decoration:underline;
+    color: hsl(216, 22%, 47%);
+}
+
+@media (max-height: 590px){
+    footer{
+        display: none;
+    }
+}
